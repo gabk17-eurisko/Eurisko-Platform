@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputPhoneNumber/> renders correctly 1`] = `
+[
+  <View
+    style={
+      [
+        null,
+        {
+          "borderColor": "#bababa",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "padding": 10,
+          "width": "100%",
+        },
+        [
+          {
+            "height": 50,
+            "justifyContent": "center",
+          },
+          undefined,
+        ],
+        null,
+      ]
+    }
+    testID="container"
+  >
+    <View
+      style={
+        {
+          "flexDirection": "row-reverse",
+        }
+      }
+      testID="extensionPosition"
+    >
+      <TextInput
+        editable={true}
+        extensionPositionStart={false}
+        extenstionTextStyle={{}}
+        keyboardType="number-pad"
+        onChangeText={[Function]}
+        style={
+          [
+            {
+              "flex": 1,
+              "fontSize": 18,
+            },
+            {},
+          ]
+        }
+        testID="input"
+        textAlign="left"
+        value=""
+      />
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "paddingHorizontal": 10,
+          }
+        }
+        testID="button"
+      >
+        <Image
+          source={
+            {
+              "testUri": "../../react-native-flags/flags/shiny/32/US.png",
+            }
+          }
+          style={
+            [
+              {
+                "height": 32,
+                "width": 32,
+              },
+              undefined,
+            ]
+          }
+        />
+      </View>
+    </View>
+  </View>,
+  <Modal
+    animationType="slide"
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    visible={false}
+  />,
+]
+`;
