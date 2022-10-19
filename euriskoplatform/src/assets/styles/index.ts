@@ -108,4 +108,42 @@ export default StyleSheet.create({
     height: 50,
     justifyContent: 'center',
   },
+  gestureHandlerRoot: {
+    flex: 1,
+  },
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    padding: 50,
+    backgroundColor: 'white',
+  },
+  contentContainer: {
+    flex: 1,
+    marginBottom: 24,
+  },
+  optionContainer: {
+    flex: 1,
+    paddingVertical: 32,
+    alignItems: 'center',
+    justifyContent: 'center',
+    // borderWidth: 2,
+    // borderColor: 'red',
+  },
+  optionText: {
+    fontSize: 16,
+  },
+  separator: {
+    marginHorizontal: 20,
+    borderBottomColor: COLORS.black,
+    borderBottomWidth: StyleSheet.hairlineWidth,
+  },
+  square: {
+    width: 100,
+    height: 100,
+    backgroundColor: 'black',
+  },
+  tinyLogo: {
+    width: '100%',
+    height: '100%',
+  },
 });
